@@ -55,8 +55,8 @@ def process_file(input_file_path, output_file_path):
             file.write(f"{current.value}\n")
             current = current.next
 
-
 # Path of input and output files
-input_file_path = "./input/sample_01.txt"
-output_file_path = "./output.txt"
+input_file_path = "./sample_inputs/sample_input_01.txt"
+output_file_path = "./sample_results/sample_01.txt_result"
 process_file(input_file_path, output_file_path)
+
